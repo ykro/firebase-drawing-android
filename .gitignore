@@ -1,7 +1,22 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# OSX files
 .DS_Store
-/build
-/captures
+
+# Gradle Files
+.gradle
+.m2
+.gradletasknamecache
+
+# Build output directories and files
+target/
+build/
+Version.java
+logcat.txt
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+local.properties
+fabric.properties
