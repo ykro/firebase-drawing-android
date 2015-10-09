@@ -47,6 +47,7 @@ public class MainActivity extends ActionBarActivity {
 
         SharedPreferences prefs = getApplication().getSharedPreferences("LEDPrefs", 0);
         String username = prefs.getString("username", null);
+        setTitle(username);
 
         String childUsername = username.replace(".","_");
         app.addChild(childUsername);
